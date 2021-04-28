@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-primary {
+  font-size: 1rem;
+  /* padding: 2rem; */
+  height: 2rem;
+  text-align: inline;
+  /* margin-left: 0.5rem;
+  margin-bottom: 1rem; */
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(1, 68, 255) 0%, rgb(44, 112, 214) 100%);
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.05);
+}
